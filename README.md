@@ -1,3 +1,21 @@
+### Uma simples Lista de tarefa usando os conceitos de reducer.
+
+# reducers/list.js
+
+Foi criado um arquivo chamado list.js contento o reducer.
+criado uma funcao chamada listReducer que recebe uma lista e uma açao
+as açoes sao para adicionar um item, editar, marcar como feito ou não e remover.
+
+# app.js
+
+Onde foi construida toda a logica da aplicacao.
+primeiramente foi criado um reducer com list e dispatch. Iniciando com uma lista vazia.
+Foi criado um state para armazenar e manipular os valores digitados no input disponível na tela.
+Foram criadas as funcoes para adicionar um item, marcar como feito, deletar e editar um item.
+
+Apos isso foi criada a interface para o usuario, com um input para adicionar uma tarefa.
+A tarefa é listada na tela com os botoes para adicionar, editar e um checkbox para marcar como concluido.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
